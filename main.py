@@ -16,3 +16,4 @@ chess_app.include_router(router)
 
 if __name__ == '__main__':
     uvicorn.run(chess_app, host='127.0.0.1', port=8000)
+
